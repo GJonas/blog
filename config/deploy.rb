@@ -8,7 +8,7 @@ set :user, 'deployer'
 set :deploy_via, :remote_cache
 
 set :scm, "git"
-set :repo_url, "/home/deployer/repos/#{fetch(:application)}.git"
+set :repo_url, "https://github.com/GJonas/#{fetch(:application)}.git"
 set :branch, "master"
 
 set :linked_files, %w{config/database.yml}
