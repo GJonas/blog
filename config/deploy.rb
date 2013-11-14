@@ -17,7 +17,7 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 set :normalize_asset_timestamps, false
 
 set :format, :pretty
-set :log_level, :info
+#set :log_level, :info
 
 after "deploy", "deploy:cleanup" # keep only the last 5 releases
 
